@@ -1,0 +1,193 @@
+*
+{
+	padding: 0;
+	margin: auto;
+	box-sizing: border-box;
+}
+body
+{
+	background-color:#f1f1f1;
+}
+header
+{
+	background-color:#fff;
+	height:90px;
+	overflow:hidden;
+	padding:15px;
+	
+	
+}
+header h1
+{
+	float:left;
+	font-family:calibri;
+}
+
+.logo
+{
+	color: #ff48a5;
+	
+}
+header nav ul
+{
+	float: right;
+	margin-right:25px;
+	list-style: none;
+	
+	
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	
+	
+}
+a:link
+{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:18px;
+	font-family:calibri;
+	color:#800080;
+}
+.menu-bar ul li
+{
+	width: 180px;
+	margin: 10px;
+	padding: 0.5px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #817D7D;
+	
+}
+.active, .menu-bar ul li:hover
+{
+	text-decoration:underline;
+	background: #53E9FA;
+	border-radius: 10px;
+	transition:1s;
+}
+
+#jambotron
+{
+	background-color:red;
+	height:1500px;
+	background:url(img/z1.jpg) no-repeat;
+	background-size:135%;
+	padding:150px;
+}
+#jambotron h2
+{
+	float:left;
+	color:#ff0000;
+	text-shadow:2px 2px 8px #fff;
+	font-size:60pt;
+	font-family:calibri;
+	
+	
+}
+#jambotron p
+{
+	float:right;
+	width:400px;
+	font-family:18pt;
+	color:#FBFF00;
+	font-size:35pt;
+	position:absolute;
+	right:1340px;
+	top:400px;
+}
+.signin
+{
+	position:absolute;
+	right:1500px;
+	bottom:100px;
+	border:lpx solid #800080;
+	padding:10px;
+	background-color:#C0C0C0;
+}
+#features
+{
+	text-align:center;
+	width:1000px;
+	margin-top:0px;
+}
+#features ul
+{
+	list-style-type:none;
+	overflow:hidden;
+}
+#features ul li
+{
+	float:left;
+	background-color:#fff;
+	border:1px solid #ccc;
+	height:400px;
+	overflow:hidden;
+	width:280px;
+	margin-right:10px;
+	padding-top:300px;
+}
+#features #feature-3
+{
+	background:url('images/computers.jpg') no-repeat top center;
+	background-size:290px 290px;
+}
+#features #feature-2
+{
+	background:url('images/laptops.jpg') no-repeat top center;
+	background-size:290px 290px;
+}
+#features #feature-3
+{
+	background:url('images/computers.jpg') no-repeat top center;
+	background-size:290px 290px;
+}
+#features #feature-4
+{
+	background:url('images/phones.jpg') no-repeat top center;
+	background-size:290px 290px;
+}
+#copy-right
+{
+    text-align:center;
+    color:blue;
+    padding-bottom:200px;
+	margin-top:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
